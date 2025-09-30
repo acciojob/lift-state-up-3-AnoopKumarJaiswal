@@ -1,6 +1,6 @@
 import React from "react";
 
-export function ChildComponent1({SelectedOption,setSelectedOption})
+export function ChildComponent1({selectedOption,setSelectedOption})
 {
     return(
         <div style={{backgroundColor :"red" ,height : "200px"}}>

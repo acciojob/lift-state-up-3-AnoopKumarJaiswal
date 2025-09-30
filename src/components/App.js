@@ -5,14 +5,14 @@ import { ChildComponent1 } from "./ChildComponent1";
 import { ChildComponent2 } from "./ChildComponent2";
 
 const App = () => {
-  const [SelectedOption , setSelectedOption] = useState("")
+  const [selectedOption , setSelectedOption] = useState("")
   return (
     <div className="parent" style={{backgroundColor:"green", height:"100vh"}}>
         {/* Do not remove the main div */}
         <h1>Parnent Component</h1> 
 
-        <ChildComponent1 SelectedOption = {SelectedOption} setSelectedOption = {setSelectedOption}/>
-        <ChildComponent2 SelectedOption = {SelectedOption} setSelectedOption = {setSelectedOption}/>
+        <ChildComponent1 selectedOption = {selectedOption} setSelectedOption = {setSelectedOption}/>
+        <ChildComponent2 selectedOption = {selectedOption} setSelectedOption = {setSelectedOption}/>
 
         <p>Selected Option : {SelectedOption}</p>
         
