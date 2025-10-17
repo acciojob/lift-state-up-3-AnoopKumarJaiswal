@@ -8,7 +8,7 @@ export function ChildComponent1({selectedOption,setSelectedOption})
 
             <button onClick={() =>{
                 setSelectedOption("Option 1")
-            }}>Option1</button>
+            }}>Option 1</button>
         </div>
     )
 }
